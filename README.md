@@ -1,2 +1,2 @@
 # Movie-recommendation
-Python code which gives 3 movie recommendations based on each mood.
+Python code about choosing a movie recommendation based on the mood they select.
