@@ -11,8 +11,7 @@ def get_movie(mood):
         "BORED": ["Enemy","Prisoners","Nightcrawler","Deadpool","Baby Driver"],
         "HYSTERIA": ["Nice Guys","Palm Springs","Free Guy","Adaptation","Rush Hour"]
     }
-    return random.choice(movies.get(mood, 
-                                    ["Being John Malkovich","Seven","Forrest Gump","Fight Club","Die Hard","Taxi Driver"]))
+    return random.choice(movies.get(mood, ["Being John Malkovich","Seven","Forrest Gump","Fight Club","Die Hard","Taxi Driver"]))
 
 def result(movie):
     print(f"Your movie recommendations: {movie}")
@@ -22,3 +21,4 @@ mood = get_mood()
 movie = get_movie(mood)
 
 result(movie)
+
